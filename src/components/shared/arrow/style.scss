@@ -1,0 +1,16 @@
+@import "../../../style/mixins.scss";
+@import "../../../style/variable.scss";
+
+.arrow{
+        width: fit-content;
+        height: 27px;
+        // background: $yellow;
+        border-radius: 41px;
+        display: flex;
+        align-items: center;        ;
+        justify-content: center;
+        margin-left: 10px;
+        svg{
+            transform: rotate(-45deg);
+        }
+    }
