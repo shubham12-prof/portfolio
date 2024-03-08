@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.baaa3bd9.css",
+    "main.js": "/portfolio/static/js/main.0f0cc4b7.js",
+    "static/media/vector-background.png": "/portfolio/static/media/vector-background.17fff8ffdaaf3dcfe71c.png",
+    "static/media/thumb-5.jpg": "/portfolio/static/media/thumb-5.27ea789b3b4ba71bd800.jpg",
+    "static/media/thumb-6.jpg": "/portfolio/static/media/thumb-6.26e955c3cd18b48dc98b.jpg",
+    "static/media/thumb-8.jpg": "/portfolio/static/media/thumb-8.cdf9b9f4de1c899f5bcc.jpg",
+    "static/media/thumb-1.jpg": "/portfolio/static/media/thumb-1.c4cdcb71d78a31493dde.jpg",
+    "static/media/thumb-4.jpg": "/portfolio/static/media/thumb-4.ca0a5db1714d4ca43d24.jpg",
+    "static/media/thumb-3.jpg": "/portfolio/static/media/thumb-3.7e550fc264d45366b663.jpg",
+    "static/media/tech-icons.png": "/portfolio/static/media/tech-icons.bba568408fb42fa031c8.png",
+    "static/media/thumb-7.jpg": "/portfolio/static/media/thumb-7.ce14c76ba50f932d14d4.jpg",
+    "static/media/thumb-2.jpg": "/portfolio/static/media/thumb-2.5a21a5409f6da3f2ef9e.jpg",
+    "static/media/cloud-soft.png": "/portfolio/static/media/cloud-soft.4a7c46b961e63488802b.png",
+    "index.html": "/portfolio/index.html",
+    "main.baaa3bd9.css.map": "/portfolio/static/css/main.baaa3bd9.css.map",
+    "main.0f0cc4b7.js.map": "/portfolio/static/js/main.0f0cc4b7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.baaa3bd9.css",
+    "static/js/main.0f0cc4b7.js"
+  ]
+}
