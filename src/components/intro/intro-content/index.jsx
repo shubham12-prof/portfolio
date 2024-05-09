@@ -14,16 +14,21 @@ const IntroContent = () => {
                         <span className="small-text">
                             <span className="text">Hello</span>
                             <span className="icon">
-                                <img src={hand} />
+                                <img
+                                    src={hand}
+                                    alt="imagehand"
+                                />
                             </span>
                             <span className="text">, I Am</span>
                         </span>
-                        <span className="big-text">Keniya Andrew</span>
+                        <span className="big-text">Shubham Semwal</span>
                     </h1>
                     <p className="title">
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been the
-                        industry's standard dummy text ever since the 1500
+                        I'm a passionate React developer with a knack for
+                        crafting delightful user experiences. With a keen eye
+                        for detail and a love for clean, efficient code, I
+                        thrive in turning ideas into beautifully functional
+                        applications.
                     </p>
                     <CallToAction
                         text="Contact me"

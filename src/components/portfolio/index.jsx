@@ -9,67 +9,75 @@ import "./style.scss";
 const projectsData = [
     {
         id: 1,
-        name: "Healthy Food Restraunt",
+        name: "Pinterest",
         tags: ["web-app", "mobile-app"],
         media: {
-            thumbnail: require("../../images/portfolio/thumb-7.jpg"),
+            thumbnail: require("../../images/portfolio/thumb-7.png"),
         },
+        link: "https://pinterest-c5uj.onrender.com",
     },
     {
         id: 2,
-        name: "Anna & Daniel",
+        name: "FoodRecipe Search",
         tags: ["web-page"],
         media: {
-            thumbnail: require("../../images/portfolio/thumb-2.jpg"),
+            thumbnail: require("../../images/portfolio/thumb-2.png"),
         },
+        link :"https://shubham12-prof.github.io/firebase-foodsite/"
     },
     {
         id: 3,
-        name: "Web Design Landing Page",
+        name: "Wedding Website",
         tags: ["web-page"],
         media: {
-            thumbnail: require("../../images/portfolio/thumb-8.jpg"),
+            thumbnail: require("../../images/portfolio/thumb-8.png"),
         },
+        link: "https://shubham12-prof.github.io/WeddingLive/"
     },
     {
         id: 4,
-        name: "Business Analytics Web App",
+        name: "Instagram Clone",
         tags: ["web-app", "mobile-app"],
         media: {
-            thumbnail: require("../../images/portfolio/thumb-1.jpg"),
+            thumbnail: require("../../images/portfolio/thumb-1.png"),
         },
+        link:"https://instaclone-wqye.onrender.com"
     },
     {
         id: 5,
-        name: "Limitless",
+        name: "Travel Webiste",
         tags: ["web-app", "web-page"],
         media: {
-            thumbnail: require("../../images/portfolio/thumb-6.jpg"),
+            thumbnail: require("../../images/portfolio/thumb-6.png"),
         },
+        link:"https://shubham12-prof.github.io/reacttravel/"
     },
     {
         id: 6,
-        name: "Dashboard",
+        name: "Chat Hosting",
         tags: ["product", "web-app", "mobile-app"],
         media: {
-            thumbnail: require("../../images/portfolio/thumb-4.jpg"),
+            thumbnail: require("../../images/portfolio/thumb-4.png"),
         },
+        link:"https://shubham12-prof.github.io/chathosting/"
     },
     {
         id: 7,
-        name: "Digital Creative Agency",
+        name: "Crypto Search",
         tags: ["web-app"],
         media: {
-            thumbnail: require("../../images/portfolio/thumb-3.jpg"),
+            thumbnail: require("../../images/portfolio/thumb-3.png"),
         },
+        link:"https://shubham12-prof.github.io/cryptocurrency/"
     },
     {
         id: 8,
-        name: "Virtual Reality Experience",
+        name: "travel Quotes",
         tags: ["web-app", "mobile-app", "web-page"],
         media: {
-            thumbnail: require("../../images/portfolio/thumb-5.jpg"),
+            thumbnail: require("../../images/portfolio/thumb-5.png"),
         },
+        link:"https://shubham12-prof.github.io/reactlivewebsite/"
     },
 ];
 

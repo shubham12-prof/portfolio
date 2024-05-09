@@ -20,11 +20,14 @@ const Skills = () => {
                 <div className="right-col">
                     <h2>Skills</h2>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Tempora facere, impedit veniam blanditiis repellendus
-                        repellat, corporis quaerat distinctio animi nihil
-                        adipisci dignissimos excepturi obcaecati earum aliquid
-                        accusantium nemo deserunt molestias. Quidem, optio!
+                        As a React enthusiast, I've had the opportunity to work
+                        on various projects, ranging from simple landing pages
+                        to complex web applications. My experience extends
+                        beyond just crafting pixel-perfect frontend designs; I
+                        also have a solid understanding of backend technologies,
+                        including Node.js, Express.js, etc. This holistic
+                        approach enables me to architect scalable solutions that
+                        meet both user needs and business objectives.
                     </p>
                     <CallToAction
                         text="Download CV"
