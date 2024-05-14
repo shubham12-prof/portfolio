@@ -2,10 +2,17 @@ import React from "react";
 import hand from "../../../images/hand.png";
 import CallToAction from "../../shared/CallToAction";
 import { scrollToSection } from "../../utils/helpers";
-
 import "./style.scss";
 
 const IntroContent = () => {
+    const handleDownloadResume = () => {
+        const link = document.createElement("a");
+        link.href = "/resume.pdf";
+        link.download = "resume.pdf";
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
     return (
         <div className="intro-content">
             <div className="layout">
@@ -30,12 +37,18 @@ const IntroContent = () => {
                         thrive in turning ideas into beautifully functional
                         applications.
                     </p>
-                    <CallToAction
-                        text="Contact me"
-                        action={() => {
-                            scrollToSection("contact");
-                        }}
-                    />
+                    <div style={{ display: "flex", justifyContent: "space-between" }}>
+                        <CallToAction
+                            text="Contact me"
+                            action={() => {
+                                scrollToSection("contact");
+                            }}
+                        />
+                        <CallToAction
+                            text="Download Resume"
+                            action={handleDownloadResume}
+                        />
+                    </div>
                 </div>
             </div>
         </div>

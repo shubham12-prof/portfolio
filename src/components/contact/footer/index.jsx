@@ -1,10 +1,7 @@
 import React from "react";
 import {
-    FaYoutube,
     FaGithub,
     FaLinkedinIn,
-    FaStackOverflow,
-    FaInstagram,
 } from "react-icons/fa";
 
 import Section from "../../shared/section";
@@ -50,26 +47,16 @@ const Footer = () => {
                     </li>
                 </ul>
                 <div className="social-icons">
-                    <SocialIcon
-                        color="#FF0000"
-                        icon={<FaYoutube />}
-                        link="https://www.youtube.com/"
-                    />
+
                     <SocialIcon
                         color="#0D2636"
                         icon={<FaGithub />}
+                        link="https://github.com/shubham12-prof"
                     />
                     <SocialIcon
                         color="#0A66C2"
                         icon={<FaLinkedinIn />}
-                    />
-                    <SocialIcon
-                        color="#f2740d"
-                        icon={<FaStackOverflow />}
-                    />
-                    <SocialIcon
-                        color="#E84C88"
-                        icon={<FaInstagram />}
+                        link="https://www.linkedin.com/in/shubham-semwal-224540172/"
                     />
                 </div>
                 <div className="bottom-bar">
