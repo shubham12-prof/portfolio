@@ -7,8 +7,8 @@ import "./style.scss";
 const IntroContent = () => {
     const handleDownloadResume = () => {
         const link = document.createElement("a");
-        link.href = "/resume.pdf";
-        link.download = "resume.pdf";
+        link.href = "/resumee.pdf";
+        link.download = "resumee.pdf";
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
