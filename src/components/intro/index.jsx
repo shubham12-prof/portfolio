@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.scss";
-import cloud from "../../images/cloud.png";
-import cloudSoft from "../../images/cloud-soft.png";
+// import cloud from "../../images/cloud.png";
+// import cloudSoft from "../../images/cloud-soft.png";
 import Navigation from "./navigation/index";
 import InterComponent from "./intro-content/index";
 const Intro = () => {
@@ -11,7 +11,7 @@ const Intro = () => {
                 className="vector-bg"
                 id="parallax"
             ></div>
-            <img
+            {/* <img
                 src={cloud}
                 className="cloud"
                 alt=""
@@ -20,7 +20,7 @@ const Intro = () => {
                 src={cloudSoft}
                 className="cloud-soft"
                 alt=""
-            />
+            /> */}
             <div className="content">
                 <Navigation />
                 <InterComponent />
