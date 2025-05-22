@@ -1,0 +1,152 @@
+@import "../../../src/style/mixins.scss";
+@import "../../../src//style//variable.scss";
+
+@keyframes wave {
+    0% {
+        transform: translateX(-100%) translateY(0);
+    }
+
+    50% {
+        transform: translateX(0) translateY(10px);
+    }
+
+    100% {
+        transform: translateX(-50%) translateY(0);
+    }
+}
+
+.skills-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    align-items: center;
+    background-color: #1a1a1d; // Dark background color
+    color: white;
+    overflow: hidden; // Ensures the wave effect does not overflow outside the element
+  
+    // Pseudo-element to create the wave effect
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 50%;
+      width: 200%;
+      height: 100%;
+      background: url('data:image/svg+xml,%3Csvg viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath fill="%2328282b" fill-opacity="1" d="M0,64L80,85.3C160,107,320,149,480,181.3C640,213,800,235,960,229.3C1120,224,1280,192,1360,176L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"%3E%3C/path%3E%3C/svg%3E');
+      background-size: cover;
+      transform: translateX(-50%);
+      z-index: -1;
+    }
+
+    .header {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        max-width: 1100px;
+        gap: 12px;
+
+        @media (max-width: 960px) {
+            flex-direction: column;
+        }
+
+        .tittle {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: white;
+            margin-top: 10px;
+        }
+
+        .desc {
+            font-size: 18px;
+            text-align: center;
+            max-width: 600px;
+        }
+    }
+
+    .skillsContainer {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        gap: 30px;
+        justify-content: center;
+
+        .skill {
+            width: 100%;
+            max-width: 500px;
+            ;
+            border: 0.1px solid #854CE6;
+            box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+            border-radius: 16px;
+            padding: 0px 36px;
+
+            @media (max-width: 768px) {
+                max-width: 400px;
+                padding: 10px 36px;
+            }
+
+            @media (max-width: 500px) {
+                max-width: 330px;
+                padding: 10px 36px;
+            }
+
+            .skilltittle {
+                font-size: 28px;
+                font-weight: 600;
+                color: $theme-text-secondary;
+                margin-bottom: 20px;
+                text-align: center;
+                color: white;
+            }
+
+            .skilllist {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 12px;
+                margin-bottom: 20px;
+
+                .skillitem {
+                    font-size: 16px;
+                    font-weight: 400;
+                    border-radius: 12px;
+                    padding: 0px 16px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    @media (max-width: 768px) {
+                        font-size: 14px;
+                        padding: 8px 12px;
+                    }
+
+                    @media (max-width: 500px) {
+                        font-size: 14px;
+                        padding: 6px 12px;
+                    }
+
+                    &:hover {
+                        background-color: #000000;
+                    }
+
+                    .skillimage {
+                        width: 24px;
+                        height: 24px;
+                    }
+
+                    &::after {
+                        content: "";
+                        display: block;
+                        padding-bottom: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
