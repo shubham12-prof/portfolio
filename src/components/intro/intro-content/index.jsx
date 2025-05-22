@@ -7,7 +7,7 @@ import "./style.scss";
 const IntroContent = () => {
   const handleDownloadResume = () => {
     const link = document.createElement("a");
-    link.href = "/resume.pdf";
+    link.href = `${process.env.PUBLIC_URL}/resume.pdf`;
     link.download = "resume.pdf";
     document.body.appendChild(link);
     link.click();
